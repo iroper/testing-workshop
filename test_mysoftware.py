@@ -21,3 +21,6 @@ def test_coulomb():
 #        pass
 #    with pytest.raises(ZeroDivisionError): # context manager
 #        coulomb(0.0)
+
+def test_add():
+    assert 2+2 == 4
