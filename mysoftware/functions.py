@@ -3,6 +3,9 @@ import numpy as np
 def square(x):
     return x*x
 
+def coulomb(r):
+    return 1/abs(r)
+
 def CentralDifference(f, x, h):
     # f(x+h) - f(x-h)
     # --------------- approx f'(x)
